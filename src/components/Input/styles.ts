@@ -1,6 +1,11 @@
 import styled, { css } from 'styled-components';
 
-export const Container = styled.div`
+interface MenuProps {
+  isFocused: boolean;
+  isFilled: boolean;
+}
+
+export const Container = styled.div<MenuProps>`
   display: flex;
   align-items: center;
 

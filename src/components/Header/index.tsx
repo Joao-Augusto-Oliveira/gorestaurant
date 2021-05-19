@@ -7,7 +7,7 @@ interface HeaderProps {
   toggleModal: () => void;
 }
 
-const Header = ({toggleModal} : HeaderProps) => {
+const Header = ({toggleModal}: HeaderProps) => {
   
     return (
       <Container>
